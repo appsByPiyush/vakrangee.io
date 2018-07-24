@@ -3,7 +3,7 @@
     <head>
         <!-- meta tag -->
         <meta charset="utf-8">
-        <title>Vakrangee</title>
+        <title>Edulearn | Responsive Education HTML5 Template</title>
         <meta name="description" content="">
         <!-- responsive tag -->
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -29,8 +29,8 @@
         <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
 		<!-- flaticon css  -->
         <link rel="stylesheet" type="text/css" href="fonts/flaticon.css">
-        <!-- flaticon2 css  -->
-        <link rel="stylesheet" type="text/css" href="fonts/fonts2/flaticon.css">
+        <!-- timeline css -->
+        <link rel="stylesheet" type="text/css" href="css/timeline.css">
         <!-- style css -->
         <link rel="stylesheet" type="text/css" href="style.css">
         <!-- responsive css -->
@@ -41,18 +41,18 @@
         <![endif]-->
     </head>
     <body class="home3">
-        <!--Preloader area start here-->
-        <div class="book_preload">
-            <div class="book">
-                <div class="book__page"></div>
-                <div class="book__page"></div>
-                <div class="book__page"></div>
+            <!--Preloader area start here-->
+            <div class="book_preload">
+                <div class="book">
+                    <div class="book__page"></div>
+                    <div class="book__page"></div>
+                    <div class="book__page"></div>
+                </div>
             </div>
-        </div>
-        <!--Preloader area end here-->
-		
-        <!--Full width header Start-->
-		<div class="full-width-header">
+            <!--Preloader area end here-->
+            
+            <!--Full width header Start-->
+            <div class="full-width-header">
                 <!-- Toolbar Start -->
                 <div class="rs-toolbar col-xs-0 d-none d-lg-block">
                     <div class="container">
@@ -89,8 +89,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- Toolbar End -->
-                
+                <!-- Toolbar End -->                
                 <!--Header Start-->
                 <header id="rs-header" class="rs-header">
                     
@@ -114,12 +113,12 @@
                                                     <!--About Menu End--> 
     
                                                     <!-- Drop Down -->
-                                                    <li class="menu-item-has-children"> <a href="#">Courses</a>
+                                                    <li class="menu-item-has-children "> <a href="#">Courses</a>
                                                         <ul class="sub-menu">
                                                           <li><a href="coaching-ielts.html">IELTS</a></li>
                                                           <li><a href="coaching-pte.html">PTE</a></li>
                                                           <li><a href="coaching-gre.html">GRE</a></li>
-                                                            <li><a href="coaching-english.html">Spoken English</a></li>
+                                                          <li><a href="coaching-english.html">Spoken English</a></li>
                                                         </ul>
                                                     </li>
                                                     <!--End Icons -->
@@ -145,12 +144,12 @@
                                                     <!--Events Menu End-->
     
                                                     <!--blog Menu Start-->
-                                                    <li class="menu-item-has-children"> <a href="#">Blog</a>
+                                                    <!--<li class="menu-item-has-children"> <a href="#">Blog</a>
                                                         <ul class="sub-menu">
                                                             <li><a href="blog.html">Blog</a></li>
                                                             <li><a href="blog-details.html">Blog Details</a></li>
                                                         </ul>
-                                                    </li>
+                                                    </li>-->
                                                     <!--blog Menu End-->
     
                                                     <!--Contact Menu Start-->
@@ -174,7 +173,7 @@
                 <!--Header End-->
     
             </div>
-            <!--End-->
+            <!--Full width header End-->
 
 		<!-- Courses Details Start -->
         <div class="rs-courses-details pt-100 pb-70">
@@ -232,7 +231,29 @@
                                                                   </tr>
                                                                 </thead>
                                                                 <tbody>
-                                                                  <tr>
+                                                                    <tr><td>Fairleigh Dickinson University</td></tr>
+                                                                    <tr><td>Lakehead University</td></tr>
+                                                                    <tr><td>The University of Lethbridge</td></tr>
+                                                                    <tr><td>Royal Roads University</td></tr>
+                                                                    <tr><td>Laurentian University</td></tr>
+                                                                    <tr><td>St. Mary’s University</td></tr>
+                                                                    <tr><td>Brock University</td></tr>
+                                                                    <tr><td>Trent University</td></tr>
+                                                                    <tr><td>University of Prince Edward Island</td></tr>
+                                                                    <tr><td>Thompson Rivers University</td></tr>
+                                                                    <tr><td>Humber College</td></tr>
+                                                                    <tr><td>Camosun College</td></tr>
+                                                                    <tr><td>St. Clair College</td></tr>
+                                                                    <tr><td>Sheridan College</td></tr>
+                                                                    <tr><td>Niagara College</td></tr>
+                                                                    <tr><td>Georgian College</td></tr>
+                                                                    <tr><td>Douglas College</td></tr>
+                                                                    <tr><td>Lambton College</td></tr>
+                                                                    <tr><td>University of Regina</td></tr>
+                                                                    <tr><td>University of Prince Edward Island</td></tr>
+                                                                    <tr><td>Grant MacEwan University</td></tr>
+                                                                    <tr><td>SAIT Polytechnic</td></tr>
+                                                                <tr>
                                                                     <td>Centennial College</td>
                                                                   </tr>
                                                                   <tr>
@@ -334,12 +355,65 @@
 	                            </div>
                             </div>
                         </div>
+                        <div class="container res">
+                                <form id="contact-form" method="post" action="enquire.php">
+                                    <fieldset>
+                                        <div class="row">                                      
+                                            <div class="col-md-12 col-sm-12">
+                                                <div class="form-group">
+                                                    <label>Name*</label>
+                                                    <input name="name" id="name" class="form-control" type="text">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12 col-sm-12">
+                                                <div class="form-group">
+                                                    <label>Email*</label>
+                                                    <input name="email" id="email" class="form-control" type="email">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                                <div class="col-md-12 col-sm-12">
+                                                    <div class="form-group">
+                                                    <label>Phone*</label>
+                                                    <input type="tel" id="phoneno" class="form-control" name="phoneno" required />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row"> 
+                                            <div class="col-md-12 col-sm-12">    
+                                                    <div class="form-group">
+                                                            <label> Select Country *</label>
+                                                            <select class="form-control" id="course" name="course">
+                                                                <option value="canada">Canada</option>
+                                                                <option value="australia">Australia</option>
+                                                                <option value="us">USA</option>
+                                                                <option value="uk">UK</option>
+                                                            </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 col-sm-12 col-xs-12">         
+                                                <div class="form-group mb-0">
+                                                <center><input class="btn-send btn btn-primary" type="submit" value="Enquire Now" onclick="ResSub()"></center>
+                                                </div>
+                                                <script>
+                                                    function ResSub() {
+                                                        alert("Your response was submitted. we will get back to you Shortly");
+                                                    }
+                                                </script>
+                                            </div>    
+                                    </fieldset>
+                                </form>
+                            </div>				
                     </div>
                 </div>
             </div>
         </div>
          <!-- Footer Start -->
-         <footer id="rs-footer" class="bg3 rs-footer mt-0">
+        <footer id="rs-footer" class="bg3 rs-footer mt-0">
 
                 <div class="footer-top">
                         <div class="container">
@@ -364,20 +438,20 @@
                                                                         
                                         <li ><a href="about.html"><i class="fa fa-angle-right" aria-hidden="true"></i>About</a></li>
                                         <li class="active"><a href="contact.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Contact</a></li>
-                                        <li ><a href="about.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Blog</a></li>
-                                        <li ><a href="visa-student.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Student Visa</a></li>
-                                        <li><a href="visa-pr.html"><i class="fa fa-angle-right" aria-hidden="true"></i>PR</a></li>
-                                        <li ><a href="coaching-gre.html"><i class="fa fa-angle-right" aria-hidden="true"></i>GRE</a></li>
-                                        <li><a href="coaching-pte.html"><i class="fa fa-angle-right" aria-hidden="true"></i>PTE</a></li>
-                                        <li ><a href="coaching-ielts.html"><i class="fa fa-angle-right" aria-hidden="true"></i>IELTS</a></li>
-                                        <li><a href="coaching-english.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Spoken English</a></li>
+                                        <!--<li ><a href="about.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Blog</a></li>-->
+                                        <li ><a href="visa-student.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Services</a></li>
+                                        <li><a href="visa-pr.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Immigration</a></li>
+                                        <!--<li ><a href="coaching-gre.html"><i class="fa fa-angle-right" aria-hidden="true"></i>GRE</a></li>
+                                        <li><a href="coaching-pte.html"><i class="fa fa-angle-right" aria-hidden="true"></i>PTE</a></li>-->
+                                        <li ><a href="coaching-ielts.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Coaching</a></li>
+                                        <!--<li><a href="coaching-english.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Spoken English</a></li>-->
                                     </ul>
                                 </div>
                                 <div class="col-lg-3 col-md-12">
                                     <h5 class="footer-title">NEWSLETTER</h5>
                                     <p>Sign Up to Our Newsletter to Get Latest Updates &amp; Services</p>
-                                    <form class="news-form">
-                                        <input type="text" class="form-input" placeholder="Enter Your Email">
+                                    <form class="news-form" method="POST" action="subs.php">
+                                        <input type="text" class="form-input" placeholder="Enter Your Email" name="email" id="email">
                                         <button type="submit" class="form-button"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
                                     </form>
                                 </div>
@@ -407,7 +481,27 @@
             <!-- start scrollUp  -->
             <div id="scrollUp">
                 <i class="fa fa-angle-up"></i>
-            </div>           
+            </div>
+            
+            <!-- Search Modal Start -->
+            <div aria-hidden="true" class="modal fade search-modal" role="dialog" tabindex="-1">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true" class="fa fa-close"></span>
+                </button>
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="search-block clearfix">
+                            <form>
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="eg: Computer Technology" type="text">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Search Modal End -->
+            
     
             <!-- modernizr js -->
             <script src="js/modernizr-2.8.3.min.js"></script>

@@ -1,5 +1,5 @@
 <?php
-header("index.")
+header("index.html");
 $from=$_POST["email"];
 $maile = $_POST["email"];
 
