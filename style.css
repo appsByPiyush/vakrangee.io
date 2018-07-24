@@ -67,6 +67,7 @@
 /*-----------------------
     Animation
 -------------------------*/
+
 [class*='rs-animation-'] {
   -webkit-animation-duration: 0.5s;
   animation-duration: 0.5s;
@@ -74,6 +75,12 @@
   animation-timing-function: ease-out;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+}
+.res{
+  background-color: rgba(204, 168, 70, 0.315);
+  padding: 2em;
+  border-radius: 5%;
+
 }
 .rs-animation-fade {
   -webkit-animation-name: rs-fade;
